@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Asus Rog - Coins Converter </title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assets/ROG-ASUS.ico" type="image/x-icon">        
+</head>
+
+<body>
+    <img class="gif-asus-rogue" src="./assets/Asus Rog Logo Rgb GIF - Asus Rog Logo Rog Rgb - Discover & Share GIFs.gif" alt="gif-asus-rogue">
+
+    <main>
+        <label>
+            Converter <b>De</b>
+            <select>
+                <option>R$ Real Brasileiro</option>
+            </select>
+        </label>
+
+         <label>
+            Converter <b>Para</b>
+            <select class="select-moedas-gringas">
+                <option value="Dolar">US$ Dolar Americano</option>
+                <option value="Euro">£ Euro</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+            </select>
+        </label>
+
+        <label>
+            Valor 
+            <input class="input-dos-valores" placeholder="R$ 10.000" type="number">
+        </label>
+
+        <button class="convertButton">Converter</button>
+
+        <section>
+            <div class="coins-box">
+                <img class="logo-real" src="./assets/real.png" alt="moeda-real">
+                <p class="coin">Real</p>
+                <p class="coin-value-to-convert">R$ 0,00</p>
+            </div>
+
+
+            <img class="logo-seta" src="./assets/Vector.png" alt="seta">
+
+             <div class="coins-box">
+                <img class="coin-image" src="./assets/estados-unidos (1) 1.png" alt="moeda-dolar">
+                <p class="coin" id="currency-value">Dolar</p>
+                <p class="coin-value">R$ 0,00</p>
+            </div>
+            
+        </section>
+    </main>
+
+
+
+
+
+
+</body>
+
+<script src="./script.js"></script>
+</html>
